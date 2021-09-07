@@ -12,6 +12,9 @@
             "Rossey\\Blns\\": "src"
         },
     },
+    "require": {
+        "blns/blns": "*"
+    },
     "minimum-stability": "dev",
     "repositories": {
         "blns": {
