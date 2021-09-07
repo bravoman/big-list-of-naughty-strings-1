@@ -7,13 +7,10 @@
             "email": "rossey@gmail.com"
         }
     ],
-    "psr-4": {
-        "Rossey\\Blns\\": "src"
-    },
-    "scripts": {
-        "post-install-cmd": [
-            "./bin/install.sh"
-        ] 
-    },
+    "autoload": {
+        "psr-4": {
+            "Rossey\\Blns\\": "src"
+        },
+    }
     "minimum-stability": "dev"
 }
